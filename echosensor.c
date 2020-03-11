@@ -2,15 +2,15 @@
 * 
 * Class: CSC-615-01 Spring 2020
 *
-* Name: Daisu Sanchez
+* Name: Daisy Sanchez
 *
 * Student ID: 912740223 
 * 
-* Project: Assignment 2 - Tapeless Ruler - Echo Sensor
+* Project: Assignment 2 - Echo Sensor - Tapeless Ruler 
 * File: echosensor.c
 *
 * Desription: We are going to measure distance using the Echo Sensor (HC-SR04). We will display the distance
-* in centimeters. We connect the sensor to the ultrasonic pins. 
+* in centimeters. We connected the sensor to the ultrasonic pins. 
 *
 *****************************************************************************************************************************************/
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main (void){
     }
     while(1){
         double dist = distance();
-        printf("Distance %f\n", dist);
+        printf("Distance: %f\n", dist);
         
     }
   return  0;
