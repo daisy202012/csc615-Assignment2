@@ -9,7 +9,8 @@
 * Project: Assignment 2 - Tapeless Ruler - Echo Sensor
 * File: echosensor.c
 *
-* Desription: 
+* Desription: We are going to measure distance using the Echo Sensor (HC-SR04). We will display the distance
+* in centimeters. We connect the sensor to the ultrasonic pins. 
 *
 *****************************************************************************************************************************************/
 #include <stdio.h>
@@ -58,7 +59,7 @@ while(digitalRead(echo) == 1){
 //saves the total time 
 total_t = (double)(end_t - start_t) / CLOCKS_PER_SEC;
    
-
+//measures distance
 return (total_t * 17000);
 
 }
