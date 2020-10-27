@@ -3,14 +3,13 @@
 * Class: CSC-615-01 Spring 2020
 *
 * Name: Daisy Sanchez
-*
-* Student ID: 912740223 
 * 
-* Project: Assignment 2 - Echo Sensor - Tapeless Ruler 
+* Project: Echo Sensor - Tapeless Ruler 
+* 
 * File: echosensor.c
 *
-* Desription: We are going to measure distance using the Echo Sensor (HC-SR04). We will display the distance
-* in centimeters. We connected the sensor to the ultrasonic pins. 
+* Desription: We are going to measure the distance of an object by using the Echo Sensor (HC-SR04). We will display the distance
+* in centimeters. We will connect the echo sensor to the ultrasonic pins. 
 *
 *****************************************************************************************************************************************/
 #include <stdio.h>
