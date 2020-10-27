@@ -2,13 +2,7 @@
 * 
 * Class: CSC-615-01 Spring 2020
 *
-<<<<<<< HEAD
 * Name: Daisy Sanchez
-=======
-* 
-*
-* 
->>>>>>> ab758dba14bb350f999fe8be58c1877a100ce3b7
 * 
 * Project: Echo Sensor - Tapeless Ruler 
 * 
